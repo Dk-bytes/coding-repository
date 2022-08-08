@@ -1,0 +1,52 @@
+*
+{
+     font-family: Pristina;
+    font color: redial Gradient(purple);
+}
+
+
+
+
+
+body {
+    height: 400px;
+    background-color: lilac;
+    background-image: linear-gradient (to right, color:rgb(0,251,255),color:rgb(107,226,89));
+    
+    
+    rectMode(center)(0,150,150,0);
+    rect(200,150,150,200);
+
+}
+
+
+    h1 {
+    color: #3333bb;
+    }
+
+    h6 {
+        font-size: 20px;
+        color: (117,118,225);
+    }
+    
+
+button {
+    padding: 16px 30px;
+    margin: 6px 3px;
+    border:#3333bb;
+    border-radius: 4px;
+    height: 80px;
+    background-image: radial-gradient(rgb(0, 255, 251),rgb(47, 203, 42));
+    width: 150px;
+    font-size: 10rem;
+    text-decoration-color: rgb(6, 6, 84);
+    text-align: center;
+    font-size:14px;
+    cursor: pointer;
+}
+
+
+#btn
+color: content: 'light content: '\e896';
+
+
