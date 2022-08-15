@@ -1,0 +1,60 @@
+<!DOCTYPE html><!--Darlene-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAT space program </title><!-- title of mission-->
+    <Title>table</Title><!--title to specific assignment-->
+    <!--link to js file-->
+  
+</head>
+<body>
+    <!--link to javascript file-->
+    <script src="submit.js"></script>
+    <!--link HTML with css file-->
+    <link rel="stylesheet" type = "text/css" href="sound1.css">
+    <script>alert("Readings for Lift off"); <!--alert-->
+    </script>
+    <audio controls><!--audio contols-->
+        <source src="hail_to_the_chief.mp3" type="audio/mpeg"></source><!--link mpeg-->
+     </audio>   
+    
+    <!--add an image-->
+    <img align = "left" Src = "UATspace-1.png" />  
+    <br>
+    <br>
+    <br>
+    <h1><!--making required header-->
+        <b> UAT Space Program</b><!--making text bold-->
+    </h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p id="login" class="Submission">Processing Submission</p><!--paragraph processing submission-->
+<form id="Submit" onsubmit ="return fasle"><!--make submit false-->
+    First Name: <input type="text" id="1N" /><!--first name input-->
+    Last Name: <input type="text" id="2N" /><!--last name imput-->
+    Badge: <input type="numbers" id="id" /><!--badge input-->
+    <input type="submit" onclick="Creds();" /><!--input button submit-->
+
+</form><!--paragraph computting-->
+<br>     <p id="reads">"<b> Computting...</b>"</p><!-- make bold-->
+
+        
+   <br>
+    
+    
+    <!--make start and stop button-->
+    <button onClick="Initial();" id="startBtn">Start</button> 
+     <button onClick="halt();" id="stopBtn" disabled= true> Stop </button><!--disable stop-->
+    <br>
+    <br>
+
+
+
+</body>
+</html>
